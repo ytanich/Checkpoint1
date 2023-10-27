@@ -103,11 +103,7 @@ a {
     height: 27px;
 
 }
-a:hover {
-    color: #AD1818;
-    background-color: white;
-}
-.button-background {
-    /* от себя */
+
+.button-area {
     background-color: #FFFFFF;
 }
