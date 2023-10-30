@@ -1,7 +1,12 @@
 body {
     font-family: 'Manrope';
     background-color: #F5F5F5;
-    width: 100%;
+    width: 1400px;
+}
+
+.hero__box {
+    padding: 128px 125px 150px 125px;
+    background-color: #FFFFFF;
 }
 
 h1 {
@@ -13,43 +18,36 @@ h1 {
     line-height: 60px;
     letter-spacing: -1.8px;
     width: 956px;
-    margin-right: 125px;
-    margin-left: 125px;
+    padding: 0px 0px 30px 0px;
 }
 
-.h1 {
-    padding-top: 128px;   
-    padding-bottom: 30px;
-    width: 1400px;
-    background-color: #FFFFFF;
-}
 
-.image1 {
+
+.image__one {
     background-image: url(fon.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 1150px;
     height: 500px;
-    margin-top: 30px;
-    margin-left: 125px;
-    margin-right: 125px;
-    margin-bottom: 150px;
 }
 
-.image1-text {
+.image__one-text {
     color: #FFF;
-    width: 430px;
     font-family: 'Manrope', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     letter-spacing: -0.6px;
-    padding-left: 40px;
-    padding-top: 379px;
-    padding-right: 680px;
-    padding-bottom: 40px;
+    padding: 379px 680px 40px 40px;
 }
+
+.description {
+    padding: 0px 224px 30px 125px;
+    background-color: #FFFFFF;
+    padding-bottom: 150px;
+}
+
 
 h2 {
     color: #121212;
@@ -57,14 +55,10 @@ h2 {
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    width: 51px;
-    height: 25px;
     letter-spacing: -0.54px;
     text-transform: uppercase;
     background-color: #FFFFFF;
-    padding-left: 125px;
-    padding-right: 1224px;
-    padding-bottom: 30px;
+    padding: 0px 1000px 30px 0px;
 }
 
 .about {
@@ -76,16 +70,17 @@ h2 {
     font-weight: 400;
     line-height: normal;
     letter-spacing: -1.35px;
-    width: 1048px;
-    padding-left: 128px;
-    padding-right: 224px;
-    padding-bottom: 30px;
+    padding: 0px 0px 30px 3px;
 }
 
-a {
+.description__uslugi {
     color: #FFF;
+    width: 255px;
+    height: 67px;
+    border-radius: 5px;
+    border-color: #AD1818;
+    padding: 20px 40px 20px 40px;
     text-decoration: none;
-    padding: 20px 40px;
     font-family: Manrope;
     font-size: 20px;
     font-style: normal;
@@ -93,20 +88,73 @@ a {
     line-height: normal;
     letter-spacing: -0.6px;
     background-color: #AD1818;
-    border-color: #AD1818;
     display: inline-flex;
     align-items: flex-start;
     gap: 10px;
-    border-radius: 5px;
-    margin-left: 125px;
-    margin-right: 1020px;
-    margin-bottom: 150px;
-    width: 175px;
-    height: 27px;
-
 }
 
 .button-area {
     width: 1400px;
     background-color: #FFFFFF;
+    padding: 0px 1020px 150px 125px;
 }
+
+.projects {
+    box-sizing: border-box;
+    width: 1400px;
+    background-color: #FFFFFF;
+    padding: 0px 125px 206px 125px;
+}
+
+h3 {
+    margin-bottom: 30px;
+    color: #121212;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    width: 79px;
+    height: 25px;
+    letter-spacing: -0.54px;
+    text-transform: uppercase;
+    background-color: #FFFFFF;
+    padding-right: 1196px;
+}
+
+.image__project {
+    width: 1150px;
+    height: 450px;
+    background-size: cover;
+    padding-bottom: 15px;
+}
+
+.name__project {
+    size: 127px 27px;
+    color: #121212;
+    font-family: Manrope;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.9px;
+    padding-bottom: 15px;
+}
+
+.description__project-button {
+    padding: 0px 0px 90px 2px;
+}
+
+.description__project {
+    text-decoration: none;
+    color: #AD1818;
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.6px;
+}
+
+
+
+
